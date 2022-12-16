@@ -192,17 +192,6 @@ F 3 "" H 3600 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Xenir:T37_XFRM T1
-U 1 1 639E1E90
-P 5500 2550
-F 0 "T1" H 5500 2591 50  0000 C CNN
-F 1 "T37_XFRM" H 5500 2500 50  0000 C CNN
-F 2 "Xenir:T37 Transformer" H 5500 2550 50  0001 C CNN
-F 3 "" H 5500 2550 50  0001 C CNN
-	1    5500 2550
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0105
 U 1 1 639EBA97
 P 5900 3300
@@ -213,10 +202,6 @@ F 3 "" H 5900 3300 50  0001 C CNN
 	1    5900 3300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5900 2700 6100 2700
-Wire Wire Line
-	4050 2700 5100 2700
 Wire Wire Line
 	4050 2700 4050 3000
 $Comp
@@ -306,4 +291,26 @@ Wire Wire Line
 Connection ~ 2900 3200
 Wire Wire Line
 	2900 3200 3050 3200
+$Comp
+L Xenir:Inductor L1
+U 1 1 639CFD79
+P 5350 2950
+F 0 "L1" H 5350 3140 50  0000 C CNN
+F 1 "Inductor" H 5350 3049 50  0000 C CNN
+F 2 "Xenir:T37_Inductor" H 5350 3050 50  0001 C CNN
+F 3 "" H 5350 3050 50  0001 C CNN
+	1    5350 2950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5350 2700 5350 2800
+Wire Wire Line
+	5350 2700 6100 2700
+Wire Wire Line
+	5350 2700 4050 2700
+Connection ~ 5350 2700
+Wire Wire Line
+	5350 3100 5350 3300
+Wire Wire Line
+	5350 3300 5100 3300
 $EndSCHEMATC
