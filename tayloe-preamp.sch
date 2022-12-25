@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Xenir:2N3904-SMD Q1
+L tayloe-preamp-rescue:2N3904-SMD-Xenir Q1
 U 1 1 639CC4F8
 P 4050 3050
 F 0 "Q1" H 4240 3096 50  0000 L CNN
@@ -25,7 +25,7 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4050 3050 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Xenir:Resistor R1
+L tayloe-preamp-rescue:Resistor-Xenir R1
 U 1 1 639CCA36
 P 3600 2900
 F 0 "R1" V 3571 2968 28  0000 L CNN
@@ -36,7 +36,7 @@ F 3 "" H 3600 2800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Xenir:Resistor R2
+L tayloe-preamp-rescue:Resistor-Xenir R2
 U 1 1 639CD051
 P 3600 3500
 F 0 "R2" V 3571 3568 28  0000 L CNN
@@ -47,7 +47,7 @@ F 3 "" H 3600 3400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Xenir:Resistor R3
+L tayloe-preamp-rescue:Resistor-Xenir R3
 U 1 1 639CD583
 P 4050 3750
 F 0 "R3" V 4021 3818 28  0000 L CNN
@@ -58,7 +58,7 @@ F 3 "" H 4050 3650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Xenir:Resistor R4
+L tayloe-preamp-rescue:Resistor-Xenir R4
 U 1 1 639CD8F7
 P 4450 4250
 F 0 "R4" V 4421 4318 28  0000 L CNN
@@ -69,7 +69,7 @@ F 3 "" H 4450 4150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Xenir:Capacitor C2
+L tayloe-preamp-rescue:Capacitor-Xenir C2
 U 1 1 639CDDE4
 P 4450 3800
 F 0 "C2" V 4421 3915 28  0000 L CNN
@@ -120,7 +120,7 @@ Connection ~ 3600 3200
 Wire Wire Line
 	3600 3200 3600 3100
 $Comp
-L Xenir:Capacitor C1
+L tayloe-preamp-rescue:Capacitor-Xenir C1
 U 1 1 639D36DD
 P 3200 3200
 F 0 "C1" H 3200 2999 28  0000 C CNN
@@ -131,7 +131,7 @@ F 3 "" H 3200 3050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Xenir:PCB_SMA_EDGE J1
+L tayloe-preamp-rescue:PCB_SMA_EDGE-Xenir J1
 U 1 1 639D3F28
 P 2600 3000
 F 0 "J1" H 2606 3068 50  0000 C CNN
@@ -142,7 +142,7 @@ F 3 "" H 2600 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Xenir:PCB_SMA_EDGE J2
+L tayloe-preamp-rescue:PCB_SMA_EDGE-Xenir J2
 U 1 1 639D45C6
 P 7150 2950
 F 0 "J2" H 7020 2790 50  0000 R CNN
@@ -205,7 +205,7 @@ F 3 "" H 5100 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Xenir:Capacitor C4
+L tayloe-preamp-rescue:Capacitor-Xenir C4
 U 1 1 639FBD90
 P 6350 3150
 F 0 "C4" H 6350 2949 28  0000 C CNN
@@ -220,7 +220,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 3150 7050 3150
 $Comp
-L Xenir:Capacitor C3
+L tayloe-preamp-rescue:Capacitor-Xenir C3
 U 1 1 639FD1F1
 P 5100 3450
 F 0 "C3" V 5071 3565 28  0000 L CNN
@@ -254,7 +254,7 @@ F 3 "~" H 4900 3300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Xenir:Resistor R5
+L tayloe-preamp-rescue:Resistor-Xenir R5
 U 1 1 639CE399
 P 2900 3500
 F 0 "R5" V 2871 3568 28  0000 L CNN
@@ -281,7 +281,7 @@ Connection ~ 2900 3200
 Wire Wire Line
 	2900 3200 3050 3200
 $Comp
-L Xenir:Inductor L1
+L tayloe-preamp-rescue:Inductor-Xenir L1
 U 1 1 639CFD79
 P 5350 2950
 F 0 "L1" H 5350 3140 50  0000 C CNN

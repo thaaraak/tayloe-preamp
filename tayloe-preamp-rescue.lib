@@ -1,56 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_Conn_01x01_Female
+# 2N3904-SMD-Xenir
 #
-DEF Connector_Conn_01x01_Female J 0 40 Y N 1 F N
-F0 "J" 0 100 50 H V C CNN
-F1 "Connector_Conn_01x01_Female" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*
-$ENDFPLIST
-DRAW
-A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
-P 2 1 1 6 -50 0 -20 0 N
-X Pin_1 1 -200 0 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# power_+12V
-#
-DEF power_+12V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+12V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +12V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# tayloe-preamp-rescue_2N3904-SMD-Xenir
-#
-DEF tayloe-preamp-rescue_2N3904-SMD-Xenir Q 0 0 Y N 1 F N
+DEF 2N3904-SMD-Xenir Q 0 0 Y N 1 F N
 F0 "Q" 100 -75 50 H V L CNN
-F1 "tayloe-preamp-rescue_2N3904-SMD-Xenir" 100 -150 50 H V L CNN
+F1 "2N3904-SMD-Xenir" 100 -150 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23" 100 -225 50 H I L CIN
 F3 "" -100 -150 50 H I L CNN
 $FPLIST
@@ -68,11 +23,11 @@ X C 3 0 50 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# tayloe-preamp-rescue_Capacitor-Xenir
+# Capacitor-Xenir
 #
-DEF tayloe-preamp-rescue_Capacitor-Xenir C 0 40 Y Y 1 F N
+DEF Capacitor-Xenir C 0 40 Y Y 1 F N
 F0 "C" 0 125 28 H V C CNN
-F1 "tayloe-preamp-rescue_Capacitor-Xenir" 0 -125 28 H V C CNN
+F1 "Capacitor-Xenir" 0 -125 28 H V C CNN
 F2 "" 0 -150 50 H I C CNN
 F3 "" 0 -150 50 H I C CNN
 DRAW
@@ -83,11 +38,11 @@ X ~ 2 150 0 110 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# tayloe-preamp-rescue_Inductor-Xenir
+# Inductor-Xenir
 #
-DEF tayloe-preamp-rescue_Inductor-Xenir L 0 40 Y Y 1 F N
+DEF Inductor-Xenir L 0 40 Y Y 1 F N
 F0 "L" 0 -50 50 H V C CNN
-F1 "tayloe-preamp-rescue_Inductor-Xenir" 0 100 50 H V C CNN
+F1 "Inductor-Xenir" 0 100 50 H V C CNN
 F2 "" 0 100 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
 DRAW
@@ -100,11 +55,11 @@ X 2 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# tayloe-preamp-rescue_PCB_SMA_EDGE-Xenir
+# PCB_SMA_EDGE-Xenir
 #
-DEF tayloe-preamp-rescue_PCB_SMA_EDGE-Xenir J 0 40 Y Y 1 F N
+DEF PCB_SMA_EDGE-Xenir J 0 40 Y Y 1 F N
 F0 "J" 50 -100 50 H V C CNN
-F1 "tayloe-preamp-rescue_PCB_SMA_EDGE-Xenir" 0 0 50 H V C CNN
+F1 "PCB_SMA_EDGE-Xenir" 0 0 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -121,11 +76,11 @@ X 2 2 100 -300 100 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# tayloe-preamp-rescue_Resistor-Xenir
+# Resistor-Xenir
 #
-DEF tayloe-preamp-rescue_Resistor-Xenir R 0 40 Y Y 1 F N
+DEF Resistor-Xenir R 0 40 Y Y 1 F N
 F0 "R" 0 75 28 H V C CNN
-F1 "tayloe-preamp-rescue_Resistor-Xenir" 0 -75 28 H V C CNN
+F1 "Resistor-Xenir" 0 -75 28 H V C CNN
 F2 "" 0 -100 50 H I C CNN
 F3 "" 0 -100 50 H I C CNN
 DRAW
